@@ -75,10 +75,9 @@ namespace calcularCuil
                 calculo += (Int32.Parse(document_number.Substring(i,1)) * multiplicadores[i]);
             }
 
-            // Calculo el resto.
+            // Gets MOD and evaluates to get C value.
             int resto = calculo % 11;
 
-            // Gets MOD and evaluates to get C value.
             if (resto == 1)
             {
                 if (gender == "M")
