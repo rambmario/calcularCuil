@@ -1,23 +1,23 @@
 
 function get_cuil_cuit(document_number, gender) {
     /**
-     * Cuil format is: AB - document_number - C
-     * Author: Mario Ramb
+     * Cuil-Cuit format has 11 digits: AB - document_number - C
+     * Author: Mario Antonio Ramb
      *
-     * @param {str} document_number -> string solo digitos
-     * @param {str} gender -> debe contener M (masculino) F (femenino) S (sociedad)
+     * @param {str} document_number -> string has only numbers
+     * @param {str} gender -> char has 3 options: M (masculino) F (femenino) S (sociedad)
      *
      * @return {str}
      **/
 
     var AB, C;
 
-    /**
-     * Verifico que el document_number tenga exactamente ocho numeros y que
-     * la cadena no contenga letras, tengo en cuenta document_number con 6 y 7 digitos.
-     */
+    // Checks document_number has only numbers and length must be 8 digits.
     if(!isNaN(document_number)){
         switch (document_number.length) {
+            case 8:
+                //8 digits is OK
+                break;
             case 7:
                 document_number = '0'.concat(document_number);
                 break;
@@ -25,17 +25,18 @@ function get_cuil_cuit(document_number, gender) {
                 document_number = '00'.concat(document_number);
                 break;  
             default:
+                console.log("El número de DNI debe contener como mínimo 6 dígitos");
                 break;        
         }        
+    } else {
+        console.log("El número de DNI debe contener solo dígitos");
+        return null;
     }
 
-    /**
-     * De esta manera permitimos que el gender venga en minusculas y 
-     * mayusculas.
-     */
+
+     // Converts gender char to upper case and calculates AB.
     gender = gender.toUpperCase();
 
-    // Defino el valor del prefijo.
     if (gender == "M") {
         AB = '20';
     } else if(gender == "F") {
@@ -44,32 +45,19 @@ function get_cuil_cuit(document_number, gender) {
         AB = '30';
     }
 
-    /*
-     * Los numeros (excepto los dos primeros) que le tengo que
-     * multiplicar a la cadena formada por el prefijo y por el
-     * numero de document_number los tengo almacenados en un array.
-     */
+    // Fills an array with multipliers digits.
     var multiplicadores = [3, 2, 7, 6, 5, 4, 3, 2];
 
-    // Realizo las dos primeras multiplicaciones por separado.
+    // Does calculations for 2 first digits (AB).
     var calculo = ((parseInt(AB.charAt(0)) * 5) + (parseInt(AB.charAt(1)) * 4));
 
-    /*
-     * Recorro el arreglo y el numero de document_number para
-     * realizar las multiplicaciones.
-     */
+    // Loops through the array and do the calculations.
     for (var i = 0; i < 8; i++) {
         calculo += (parseInt(document_number.charAt(i)) * multiplicadores[i]);
     }
 
-    // Calculo el resto.
+    // Gets MOD and evaluates to get C value.
     var resto = (parseInt(calculo)) % 11;
-
-    /*
-     * Llevo a cabo la evaluacion de las tres condiciones para
-     * determinar el valor de C y conocer el valor definitivo de
-     * AB.
-     */
 
     if(resto == 1) {
         if(gender == "M") {
@@ -84,10 +72,10 @@ function get_cuil_cuit(document_number, gender) {
         C = 11 - resto;
     }
 
-    // Show example
+    // Shows example
     console.log([AB, document_number, C].join('-'));
 
-    // Generate cuit
+    // Generates Cuil - Cuit
     var cuil_cuit = [AB, document_number, C].join('');
 
     return cuil_cuit;
