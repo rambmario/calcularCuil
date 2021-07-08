@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{52F6077D-880D-4D47-A422-92EEC7B7FA8F}|Default">
+  <MonoDevelop.Ide.ItemProperties.CuilCSharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.CuilVB PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="calcularCuil/Cuil.cs">
+    <Files>
+      <File FileName="calcularCuil/Program.cs" Line="10" Column="63" />
+      <File FileName="CuilVB/Application.vb" Line="8" Column="9" />
+      <File FileName="CuilVB/Cuil.vb" />
+      <File FileName="calcularCuil/Cuil.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="calcularCuil" expanded="True">
+            <Node name="CuilCSharp" expanded="True">
+              <Node name="Cuil.cs" selected="True" />
+            </Node>
+            <Node name="CuilVB" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

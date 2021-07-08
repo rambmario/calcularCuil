@@ -1,0 +1,13 @@
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/calcularCuil/bin/Debug/netcoreapp3.1/calcularCuil.deps.json
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/calcularCuil/bin/Debug/netcoreapp3.1/calcularCuil.runtimeconfig.json
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/calcularCuil/bin/Debug/netcoreapp3.1/calcularCuil.runtimeconfig.dev.json
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/calcularCuil/bin/Debug/netcoreapp3.1/calcularCuil.dll
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/calcularCuil/bin/Debug/netcoreapp3.1/calcularCuil.pdb
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/calcularCuil/obj/Debug/netcoreapp3.1/calcularCuil.csprojAssemblyReference.cache
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/calcularCuil/obj/Debug/netcoreapp3.1/calcularCuil.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/calcularCuil/obj/Debug/netcoreapp3.1/calcularCuil.AssemblyInfoInputs.cache
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/calcularCuil/obj/Debug/netcoreapp3.1/calcularCuil.AssemblyInfo.cs
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/calcularCuil/obj/Debug/netcoreapp3.1/calcularCuil.csproj.CoreCompileInputs.cache
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/calcularCuil/obj/Debug/netcoreapp3.1/calcularCuil.dll
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/calcularCuil/obj/Debug/netcoreapp3.1/calcularCuil.pdb
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/calcularCuil/obj/Debug/netcoreapp3.1/calcularCuil.genruntimeconfig.cache

@@ -1,0 +1,6 @@
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/CuilVB/bin/Debug/CuilVB.exe
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/CuilVB/bin/Debug/CuilVB.pdb
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/CuilVB/obj/Debug/CuilVB.vbprojAssemblyReference.cache
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/CuilVB/obj/Debug/CuilVB.vbproj.CoreCompileInputs.cache
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/CuilVB/obj/Debug/CuilVB.exe
+/Users/marioramb/Library/Mobile Documents/com~apple~CloudDocs/_Proyectos/github/calcularCuil/calcularCuil/CuilVB/obj/Debug/CuilVB.pdb
